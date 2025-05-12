@@ -8,7 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Initialize Firebase Admin
-cred = credentials.Certificate("firebase-credentials.json")
+cred = credentials.Certificate("C:\\Users\\abhij\\Desktop\\backend\\app\\firebase-credentials.json")
+
 firebase_app = initialize_app(cred)
 
 app = FastAPI(
