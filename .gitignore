@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Firebase credentials
+app/firebase-credentials.json
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Uploads directory
+uploads/
